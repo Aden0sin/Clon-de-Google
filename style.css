@@ -3,3 +3,24 @@ header{
     flex-direction: row;
     justify-content: end;
 }
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-de-google{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 272px;
+    height: 92px;
+    
+}
+
+.logo{
+    max-width: 100%;
+    max-height: 100%;
+}
