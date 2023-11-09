@@ -30,3 +30,39 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+.barra-de-busqueda{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    position: relative;
+
+}
+
+.search{
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 70vh;
+    height: 20%;
+    position: relative;
+}
+
+.img{
+    height: 20%;
+    
+}
+
+.imagen-busqueda-izquierdo{
+    justify-content: flex-start;
+    position: absolute
+    
+    
+}
+
+.imagen-busqueda-derecho{
+    justify-content: flex-end;
+    position: relative;
+    right: 55px;
+    
+}
