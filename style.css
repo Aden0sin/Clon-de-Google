@@ -80,3 +80,11 @@ header{
     justify-content: center;
     gap: 8px;
 }
+
+.lenguaje{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-right: 80px;
+    align-items: center;
+}
