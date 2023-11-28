@@ -57,6 +57,7 @@ header{
 .img{
     height: 20%;
     
+    
 }
 
 .imagen-busqueda-izquierdo{
@@ -71,4 +72,11 @@ header{
     position: relative;
     right: 55px;
     
+    
+}
+.botones-busqueda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
