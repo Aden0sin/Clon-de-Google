@@ -87,4 +87,40 @@ header{
     flex-direction: row;
     padding-right: 80px;
     align-items: center;
+    gap: 5px;
+}
+
+.ubicacion{
+    height: 335px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+
+.recursos{
+
+display: grid;
+grid-template-columns: 2;
+grid-template-rows: 1;
+margin-top: -20px;
+margin-bottom: -80px;
+}
+
+.grupo-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.grupo-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    height: ;
+    
+    
 }
