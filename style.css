@@ -2,12 +2,32 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: end;
+    
+
 }
+
 
 .div-header{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 40px 40px 40px 40px;
     grid-template-rows: 1fr ;
+    gap: 8px;
+    margin-top: 10px;
+    margin-left: 5px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.foto-lanzador img{
+    height: 25px;
+    
+}
+
+.foto-de-usuario img{
+    height: 40px;
+    
+    
 }
 
 .logo-wrapper{
@@ -112,6 +132,7 @@ margin-bottom: -80px;
     justify-content: start;
     grid-column-start: 1;
     grid-row-start: 1;
+    gap: 4px;
 }
 
 .grupo-b{
@@ -120,7 +141,7 @@ margin-bottom: -80px;
     justify-content: end;
     grid-column-start: 2;
     grid-row-start: 1;
-    height: ;
+    gap: 4px;
     
     
 }
