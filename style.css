@@ -6,6 +6,11 @@ header{
 
 }
 
+.body{
+    margin: 0;
+    font: roboto;
+}
+
 
 .div-header{
     display: grid;
@@ -57,6 +62,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .barra-de-busqueda{
@@ -101,7 +107,17 @@ header{
     align-items: center;
     justify-content: center;
     gap: 8px;
+    color: #dadce0;
+    border-color: #dadce0;
 }
+
+.botones-busqueda button{
+    border-color: #dadce0;
+    height: 35px;
+    width: 120px;
+    border: 0px;
+}
+
 
 .lenguaje{
     display: flex;
