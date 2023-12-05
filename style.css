@@ -103,31 +103,28 @@ header a{
     box-shadow:  1px 2px 2px 1px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
-    opacity: 1;
+    
 }
 
 
 .img{
-    height: 20%;
-    
+    height: 16%;
     
 }
 
 .imagen-busqueda-izquierdo{
     justify-content: flex-start;
     position: absolute;
-    right: 100px
+    left: 15px;
     z-index:11;
     
     
 }
 
-
-
 .imagen-busqueda-microfono{
     justify-content: flex-end;
     position: absolute;
-    right: 55px;
+    right: 75px;
     z-index:11;
 
 }
@@ -135,7 +132,7 @@ header a{
 .imagen-busqueda-camara{
     justify-content: flex-end;
     position: absolute;
-    right: 55px;
+    left: 680px;
     z-index:11;
 }
 
