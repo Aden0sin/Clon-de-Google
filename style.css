@@ -76,6 +76,7 @@ header a{
     position: relative;
     border: 1px;
     border-radius: 5px;
+    align-items: center;
     
 }
 
@@ -89,18 +90,19 @@ header a{
     border: 2px solid;
     border-color: #f5f5f5;
     border-radius: 15px;
-    background-color: 
+    background-color; 
     position: relative;
     padding: 0px 0px 0px 0px;
-    left: 100px
+    bottom: 50px;
     z-index: 9;
+    
 }
 
 
 .search:hover{
     border: 1px solid #f5f5f5;
     background-color:  white;
-    box-shadow:  1px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
     
@@ -108,32 +110,39 @@ header a{
 
 
 .img{
-    height: 16%;
+    height: 10%;
     
 }
 
 .imagen-busqueda-izquierdo{
+    height: 10%;
     justify-content: flex-start;
     position: absolute;
     left: 15px;
     z-index:11;
+    bottom: 138px;
     
     
 }
 
 .imagen-busqueda-microfono{
+    height: 12.5%;
     justify-content: flex-end;
     position: absolute;
     right: 75px;
     z-index:11;
+    bottom: 138px;
+
 
 }
 
 .imagen-busqueda-camara{
+    height: 12.5%;
     justify-content: flex-end;
     position: absolute;
     left: 680px;
     z-index:11;
+    bottom: 138px;
 }
 
 .botones-busqueda{
@@ -144,6 +153,8 @@ header a{
     color: #dadce0;
     border-color: #dadce0;
     z-index:11;
+    position: relative;
+    bottom: 90px;
     
 }
 
@@ -152,6 +163,14 @@ header a{
     height: 35px;
     width: 120px;
     border: 0px;
+    z-index:11;
+}
+
+.botones-busqueda button:hover{
+    border: 1px solid;
+    border-color: #868788c2;
+    height: 35px;
+    width: 120px;
     z-index:11;
 }
 
