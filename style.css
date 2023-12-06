@@ -189,7 +189,7 @@ header a{
     align-items: center;
     gap: 5px;
     margin-bottom: 200px;
-    bottom: 500px
+    bottom: 450px
 
     
 }
@@ -202,12 +202,17 @@ header a{
     background-color: lightgray;
     display: flex;
     align-items: flex-end;
-    margin: 0
+    margin: 0;
+    width: 100%;
+    
     
 }
 .ubicacion p{ 
-    margin-bottom: 16px;
+    position: relative;
+    bottom: 30px; 
+    left: 25px;
 }
+
 
 
 .recursos{
@@ -218,6 +223,7 @@ grid-template-rows: 1;
 margin-top: -20px;
 margin-bottom: -80px;
 background-color: lightgray;
+padding-left: 25px
 }
 
 .grupo-a{
