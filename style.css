@@ -149,8 +149,8 @@ header a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    color: #dadce0;
+    gap: 20px;
+    color: #e2e2e2;
     border-color: #dadce0;
     z-index:11;
     position: relative;
@@ -161,28 +161,36 @@ header a{
 .botones-busqueda button{
     border-color: #dadce0;
     height: 35px;
-    width: 120px;
+    width: 150px;
     border: 0px;
     z-index:11;
+    font-size: 16px;
 }
 
 .botones-busqueda button:hover{
     border: 1px solid;
     border-color: #868788c2;
     height: 35px;
-    width: 120px;
+    width: 150px;
     z-index:11;
 }
 
+
+.section-de-lenguaje{
+    position: relative;
+    bottom: 75px;
+}
 
 .lenguaje{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-right: 80px;
+    padding-left: 45px;
     align-items: center;
     gap: 5px;
-    margin-bottom:275px
+    margin-bottom: 200px;
+    bottom: 500px
+    
     
 }
 
