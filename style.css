@@ -190,8 +190,12 @@ header a{
     gap: 5px;
     margin-bottom: 200px;
     bottom: 500px
+
     
-    
+}
+
+.lenguaje p{
+    color: rgb(87, 83, 83);
 }
 
 .ubicacion{
