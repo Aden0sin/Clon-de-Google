@@ -1,3 +1,13 @@
+*{   
+     margin: 0;
+    padding: 0;
+
+}
+
+html{
+
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -13,6 +23,8 @@ header a{
 .body{
     margin: 0;
     font: roboto;
+    width: 100%;
+    
 }
 
 
@@ -90,7 +102,7 @@ header a{
     border: 2px solid;
     border-color: #f5f5f5;
     border-radius: 25px;
-    background-color; 
+    
     position: relative;
     padding: 0px 0px 0px 0px;
     bottom: 50px;
@@ -169,7 +181,7 @@ header a{
 
 .botones-busqueda button:hover{
     border: 1px solid;
-    border-color: #868788c2;
+    border-color: rgba(215, 216, 216, 0.761);
     height: 35px;
     width: 150px;
     z-index:11;
@@ -198,19 +210,28 @@ header a{
     color: rgb(87, 83, 83);
 }
 
-.ubicacion{
+
+footer{
+    margin: 0;
+width: 100%;
+
+
+}
+.ubicacion div{
     background-color: lightgray;
     display: flex;
     align-items: flex-end;
     margin: 0;
     width: 100%;
+    padding: 0;
     
     
 }
 .ubicacion p{ 
     position: relative;
     bottom: 30px; 
-    left: 25px;
+    padding-left: 20px;
+    background-color: rgb(241, 241, 241);
 }
 
 
@@ -222,7 +243,7 @@ grid-template-columns: 2;
 grid-template-rows: 1;
 margin-top: -20px;
 margin-bottom: -80px;
-background-color: lightgray;
+background-color: rgb(241, 241, 241);
 padding-left: 25px
 }
 
